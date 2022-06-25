@@ -5,15 +5,21 @@ class Mynavbar extends Component {
     render() {
         return (
             <>
-                <Navbar bg="dark" variant="dark" fixed="top" collapseOnSelect expand="lg">
+                <Navbar variant="light" fixed="top" collapseOnSelect expand="lg" className="color-Navbar">
                     <Container>
-                        <Navbar.Brand href="#home">Les Pépites de Lily</Navbar.Brand>
+                        <Navbar.Brand href="#home" id="logo">Les Pépites de Lily</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="me-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#features">Features</Nav.Link>
-                                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
+                            <Nav className="fs-4">
+                                <Nav.Item className="mx-3">
+                                    <Nav.Link href="#home">Acceuil</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item className="mx-3">
+                                    <Nav.Link href="#features">Anniversaire</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item className="mx-3">
+                                    <Nav.Link href="#pricing">Salés</Nav.Link>
+                                </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
