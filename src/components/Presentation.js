@@ -1,4 +1,5 @@
-import { Component } from "react";
+
+import React, { Component }  from 'react';
 import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import Logo from '../images/Logo.png'
 import background1 from '../images/background1.png'
