@@ -9,10 +9,7 @@ class App extends Component {
     return (
       <div>
         <Mynavbar />
-        <br/>
-        <br/>
-        <Presentation />
-        <Presentation />
+        
         <Presentation />
 
       </div>
