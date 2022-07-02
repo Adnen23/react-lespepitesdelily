@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBRow } from 'mdb-react-ui-kit';
 import Logo1 from '../images/Logo1.jpg'
 import MySocialMedia from "./SocialMedia";
 
@@ -43,14 +43,14 @@ class MyFooter extends Component {
                             <h5 className='text-uppercase mb-0 text-center'>Suivez moi</h5>
                             <hr />
 
-                            <MySocialMedia />
+                            <MySocialMedia/>
                         </div>
                     </MDBRow>
                 </div>
 
                 <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                     © 2022 Copyright: 
-                    <a className='text-white' href=''>
+                    <a className='text-white' href='https://www.google.fr'>
                          Les pépites de lily
                     </a>
                 </div>
