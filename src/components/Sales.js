@@ -10,17 +10,13 @@ class Sales extends Component {
     render() {
         return (
             <MDBCard style={{ maxWidth: '100%', backgroundImage: `url(${background1})` }} className="container">
-                <MDBRow className='row col d-flex align-items-center flex-sm-row-reverse' >
-                    <MDBCol md='4' className="bg-img text-center">
-                        <MDBCardImage src={Logo} alt='...' fluid />
-                    </MDBCol>
-
+                <MDBRow className='row col d-flex align-items-center ' >
                     <MDBCol md='8'>
                         <MDBCardBody >
                             <MDBCardTitle className="text-center fw-bolder text-decoration-underline fs-1">Salés</MDBCardTitle>
                             <MDBCardText className="text-center fs-5 mt-4">
-                            Pour vos fêtes de mariages, fiançailles, naissance, soirées... faites, n"hesitez pas à
-                            commander tous types de salés (Mini pizza, mini Quiches? Burger...)
+                                Pour vos fêtes de mariages, fiançailles, naissance, soirées... faites, n"hesitez pas à
+                                commander tous types de salés (Mini pizza, mini Quiches? Burger...)
                             </MDBCardText>
                             <MDBCardText className="text-center fs-5 ">
                                 Pour toutes vos commandes veuillez me contacter par
@@ -31,7 +27,9 @@ class Sales extends Component {
                             </MDBCardText>
                         </MDBCardBody>
                     </MDBCol>
-
+                    <MDBCol md='4' className="bg-img text-center">
+                        <MDBCardImage src={Logo} alt='...' fluid />
+                    </MDBCol>
                 </MDBRow>
             </MDBCard>
         );
