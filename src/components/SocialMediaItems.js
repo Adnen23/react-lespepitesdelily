@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 
 class SocialMediaItem extends Component {
-    render() {
 
+    render() {
         return (
             <>
                 <MDBBtn
@@ -13,10 +13,12 @@ class SocialMediaItem extends Component {
                     style={this.props.style}
                     href={this.props.href}
                     target="_blank">
+
                     <MDBIcon
                         fab icon={this.props.icon}
+                        size='lg'
                         
-                        size='lg' />
+                        />
                 </MDBBtn>
 
             </>

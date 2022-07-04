@@ -11,7 +11,7 @@ class Presentation extends Component {
         return (
             <MDBCard style={{ maxWidth: '100%', backgroundImage: `url(${background1})` }} className="container">
                 <MDBRow className='row g-4 p-3 d-flex flex-sm-row-reverse justify-content-center align-items-center bg1' >
-                    <MDBCol md='4' className="bg-img">
+                    <MDBCol md='4' className="bg-img ">
                         <MDBCardImage src={Logo} alt='...' fluid />
                     </MDBCol>
                     <MDBCol md='8'>

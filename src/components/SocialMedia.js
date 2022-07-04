@@ -5,7 +5,8 @@ import SocialMediaItem from "./SocialMediaItems";
 class MySocialMedia extends Component {
 
     render() {
-        //const socialMediaInfos = {socialMediaInfo}
+      //const infos = this.socialMediaInfo
+        //this.props : socialMediaInfo
         const socialMediaInfo = [
             {
                 id: 1,
@@ -28,7 +29,7 @@ class MySocialMedia extends Component {
             {
                 id: 4,
                 href: 'tel:+213540513513',
-                icon: 'phone-alt',
+                icon: 'whatsapp',
                 style: {color: '#25D366'}
             },
         ]
