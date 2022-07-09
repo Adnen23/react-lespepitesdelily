@@ -13,9 +13,9 @@ class MyFooter extends Component {
                         <div className='col-lg-4 col-md-12 mb-4 mb-md-0 '>
                             <img
                                 src={Logo1}
-                                className='img-fluid rounded-pill hover-shadow'
+                                className='img-fluid rounded-pill shadow-5-strong'
                                 alt=''
-                                style={{ maxWidth: '8rem' }}
+                                style={{ maxWidth: '7rem' }}
                             />
                         </div>
 

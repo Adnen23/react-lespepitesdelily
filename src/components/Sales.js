@@ -1,9 +1,8 @@
-
 import React, { Component } from 'react';
 import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage, MDBRow, MDBCol } from 'mdb-react-ui-kit';
-import Logo from '../images/Logo.png'
 import background1 from '../images/background1.png'
 import MySocialMedia from './SocialMedia';
+import ImagesSales from './Images-Sales';
 
 
 class Sales extends Component {
@@ -28,7 +27,7 @@ class Sales extends Component {
                         </MDBCardBody>
                     </MDBCol>
                     <MDBCol md='4' className="bg-img text-center">
-                        <MDBCardImage src={Logo} alt='...' fluid />
+                       <ImagesSales/>
                     </MDBCol>
                 </MDBRow>
             </MDBCard>
