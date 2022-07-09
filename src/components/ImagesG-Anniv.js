@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ImagesCarousel from "./ImagesCarousel";
 import { MDBCarousel, MDBCarouselInner } from 'mdb-react-ui-kit';
+//import PhotoAnniv1 from '../../public/Images/G-Anniversaire/PhotoAnniv1.jpg'
 
 
 class ImagesGAnniv extends Component {
@@ -8,19 +9,39 @@ class ImagesGAnniv extends Component {
         const imgGAnnivInfo = [
             {
                 id: 1,
-                class: "active",
-                src: "https://mdbootstrap.com/img/new/slides/041.webp",
-                alt: "Gateau d'anniversaire",
+                class: "active p-3",
+                src: './Images/G-Anniversaire/PhotoAnniv1.jpg',
+                alt: "Gateau d'anniversaire1",
             },
             {
                 id: 2,
-                src: "https://mdbootstrap.com/img/new/slides/042.webp",
-                alt: "",
+                class: "p-3",
+                src: "./Images/G-Anniversaire/PhotoAnniv2.jpg",
+                alt: "Gateau d'anniversaire2",
             },
             {
-                id: 2,
-                src: "https://mdbootstrap.com/img/new/slides/043.webp",
-                alt: "",
+                id: 3,
+                class: "p-3",
+                src: "./Images/G-Anniversaire/PhotoAnniv3.jpg",
+                alt: "Gateau d'anniversaire3",
+            },
+            {
+                id: 4,
+                class: "p-3",
+                src: "./Images/G-Anniversaire/PhotoAnniv4.jpg",
+                alt: "Gateau d'anniversaire4",
+            },
+            {
+                id: 5,
+                class: "p-3",
+                src: "./Images/G-Anniversaire/PhotoAnniv5.jpg",
+                alt: "Gateau d'anniversaire5",
+            },
+            {
+                id: 6,
+                class: "p-3",
+                src: "./Images/G-Anniversaire/PhotoAnniv6.jpg",
+                alt: "Gateau d'anniversaire6",
             },
         ]
 
@@ -32,13 +53,12 @@ class ImagesGAnniv extends Component {
         />)
 
         return (
-            <>
-                <MDBCarousel showControls dark>
-                    <MDBCarouselInner>
-                        {ImagesGAnnivs}
-                    </MDBCarouselInner>
-                </MDBCarousel>
-            </>
+            <MDBCarousel showControls dark>
+                <MDBCarouselInner>
+                    {ImagesGAnnivs}
+                </MDBCarouselInner>
+            </MDBCarousel>
+
         )
     }
 }

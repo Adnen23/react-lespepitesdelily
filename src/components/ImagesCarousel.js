@@ -6,8 +6,9 @@ class ImagesCarousel extends Component {
         return (
             <>
                 <MDBCarouselItem className={this.props.class}>
-                    <MDBCarouselElement src={this.props.src} alt={this.props.alt} />
+                    <MDBCarouselElement src={this.props.src} alt={this.props.alt} className="rounded shadow-3-strong img-thumbnail" />
                 </MDBCarouselItem>
+
             </>
         );
     }
