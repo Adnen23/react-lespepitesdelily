@@ -7,9 +7,10 @@ class SocialMediaItem extends Component {
         return (
             <>
                 <MDBBtn
+                    floating
                     tag='a'
                     color='none'
-                    className='m-2'
+                    className='m-2 hover-shadow'
                     style={this.props.style}
                     href={this.props.href}
                     target="_blank">
@@ -17,8 +18,8 @@ class SocialMediaItem extends Component {
                     <MDBIcon
                         fab icon={this.props.icon}
                         size='lg'
-                        
-                        />
+
+                    />
                 </MDBBtn>
 
             </>

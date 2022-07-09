@@ -4,6 +4,8 @@ import Logo1 from '../images/Logo1.jpg'
 import MySocialMedia from "./SocialMedia";
 
 
+
+
 class MyFooter extends Component {
     render() {
         return (
@@ -26,14 +28,14 @@ class MyFooter extends Component {
                             <ul className='list-unstyled mb-0'>
                                 <li>
                                     <a href="tel:+213540513513">
-                                        <i className='fas fa-phone-alt me-3'></i> 0540 513 513
+                                        <i className="fa-solid fa-phone me-3"></i>0540 513 513
                                     </a>
                                 </li>
                                 <li>
-                                    <p>
-                                        <i className='fas fa-envelope me-3'></i>
+                                    <a href="mailto:pepitesdelily@gmail.com">
+                                        <i className='fa-solid fa-envelope me-3'></i>
                                         pepitesdelily@gmail.com
-                                    </p>
+                                    </a>
                                 </li>
 
                             </ul>
