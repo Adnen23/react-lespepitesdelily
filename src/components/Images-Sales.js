@@ -23,12 +23,7 @@ class ImagesSales extends Component {
                 src: "./Images/Sales/PhotoSale3.jpg",
                 alt: "Salés3",
             },
-            {
-                id: 4,
-                class: "p-3",
-                src: "./Images/Sales/PhotoSale4.jpg",
-                alt: "Salés4",
-            },
+
         ]
 
         const ImagesSaless = imgSalesInfo.map(imgSle => <ImagesCarousel

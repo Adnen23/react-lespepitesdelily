@@ -9,7 +9,7 @@ class ImagesGAnniv extends Component {
         const imgGAnnivInfo = [
             {
                 id: 1,
-                class: "active p-3",
+                class: "active p-3 ",
                 src: './Images/G-Anniversaire/PhotoAnniv1.jpg',
                 alt: "Gateau d'anniversaire1",
             },
