@@ -7,7 +7,7 @@ class Mynavbar extends Component {
             <>
                 <Navbar variant="light" fixed="top" collapseOnSelect expand="lg" className="color-Navbar">
                     <Container>
-                        <Navbar.Brand href="" id="logo">Les Pépites de Lily</Navbar.Brand>
+                        <Navbar.Brand id="logo">Les Pépites de Lily</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                             <Nav className="fs-4">
