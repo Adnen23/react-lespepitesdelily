@@ -7,6 +7,7 @@ import MyFooter from './components/Footer';
 import GateauAnnive from './components/GateauAnniv';
 import Sales from './components/Sales';
 
+
 class App extends Component {
   render() {
     return (

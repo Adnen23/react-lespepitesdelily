@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class Mynavbar extends Component {
@@ -12,10 +12,10 @@ class Mynavbar extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                             <Nav className="fs-4">
                                 <Nav.Item className="mx-3">
-                                    <Nav.Link action href="#Home">Acceuil</Nav.Link>
+                                    <Nav.Link href="#Home">Acceuil</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="mx-3">
-                                    <Nav.Link action href="#Anniversaire">Anniversaire</Nav.Link>
+                                    <Nav.Link href="#Anniversaire">Anniversaire</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="mx-3">
                                     <Nav.Link href="#Sales">Salés</Nav.Link>
