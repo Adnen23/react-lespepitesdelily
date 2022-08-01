@@ -9,7 +9,7 @@ import MySocialMedia from './SocialMedia';
 class Presentation extends Component {
     render() {
         return (
-            <MDBCard style={{ maxWidth: '100%', backgroundImage: `url(${background1})` }} className="container" id="Home">
+            <MDBCard style={{ maxWidth: '100%', backgroundImage: `url(${background1})` }} id="Home">
                 <MDBRow className='row g-4 p-3 d-flex flex-sm-row-reverse justify-content-center align-items-center bg1 m-2' >
                     <MDBCol md='4' className="bg-img text-center">
                         <MDBCardImage src={Logo} alt='Logo' fluid style={{ maxWidth: '18rem' }}

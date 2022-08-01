@@ -3,6 +3,8 @@ import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBRow, MDBCol } from 
 import background1 from '../images/background1.png'
 import MySocialMedia from './SocialMedia';
 import ImagesGAnniv from './ImagesG-Anniv';
+import { MDBCarousel, MDBCarouselInner } from 'mdb-react-ui-kit';
+
 
 
 class GateauAnnive extends Component {
@@ -28,7 +30,11 @@ class GateauAnnive extends Component {
                         </MDBCardBody>
                     </MDBCol>
                     <MDBCol md='4' className="bg-img  d-flex justify-content-center align-items-center">
-                        <ImagesGAnniv />
+                        <MDBCarousel showControls dark>
+                            <MDBCarouselInner>
+                                <ImagesGAnniv />
+                            </MDBCarouselInner>
+                        </MDBCarousel>
                     </MDBCol>
                 </MDBRow>
             </MDBCard>
