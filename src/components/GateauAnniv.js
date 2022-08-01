@@ -30,7 +30,7 @@ class GateauAnnive extends Component {
                         </MDBCardBody>
                     </MDBCol>
                     <MDBCol md='4' className="bg-img  d-flex justify-content-center align-items-center">
-                        <MDBCarousel showControls dark>
+                        <MDBCarousel dark>
                             <MDBCarouselInner>
                                 <ImagesGAnniv />
                             </MDBCarouselInner>

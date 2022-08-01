@@ -6,7 +6,7 @@ import { imgSalesInfo } from "./Datas/listImgSale";
 class ImagesSales extends Component {
     render() {
         return (
-            <MDBCarousel showControls dark>
+            <MDBCarousel dark>
                 <MDBCarouselInner>
                     {
                         imgSalesInfo.map(imgSle => <ImagesCarousel

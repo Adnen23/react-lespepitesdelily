@@ -14,12 +14,11 @@ class Sales extends Component {
                         <MDBCardBody >
                             <MDBCardTitle className="text-center fw-bolder text-decoration-underline fs-1">Salés</MDBCardTitle>
                             <MDBCardText className="text-center fs-5 mt-4">
-                                Pour vos fêtes de mariages, fiançailles, naissance, soirées... faites, n"hesitez pas à
-                                commander tous types de salés (Mini pizza, mini Quiches? Burger...)
+                                Pour vos fêtes de mariages, fiançailles, naissance, soirées... , n'hesitez pas à commander tous types de salés (Mini pizza, mini Quiches, Burger...)
                             </MDBCardText>
                             <MDBCardText className="text-center fs-5 ">
                                 Pour toutes vos commandes veuillez me contacter par
-                                téléphone ou via ma page instagram.
+                                téléphone ou via ma page Instagram.
                             </MDBCardText>
                             <MDBCardText className='text-center'>
                                 <small><MySocialMedia /></small>
